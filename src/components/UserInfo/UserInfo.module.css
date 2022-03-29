@@ -1,0 +1,25 @@
+.userInfoWrapper {
+  position: absolute;
+  top: 44%;
+  left: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userName,
+.userNickname {
+  background-image: linear-gradient(#2d7ce2, #eff317);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.userName {
+  margin: 10px;
+}
+
+.userNickname {
+  text-decoration: none;
+  font-size: 20px;
+}

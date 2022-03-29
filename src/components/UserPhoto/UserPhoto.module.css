@@ -1,0 +1,6 @@
+.userPhoto {
+  width: 320px;
+  height: 315px;
+  object-fit: cover;
+  background-color: grey;
+}

@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import UserInfo from "./components/UserInfo";
+import UserPhoto from "./components/UserPhoto";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <article className="userCard">
+        <UserPhoto
+          src="https://wnet.fm/wp-content/uploads/2019/10/Taras_Shevchenko_-_portrait_by_Ivan_Kramskoi-318x405.jpg"
+          alt="User photo"
+          title="Taras Shevchenco"
+        />
+        <UserInfo
+          firstName="Taras"
+          lastName="Shevchenco"
+          userNickname="kobzar"
+          linkProfile="#"
+        />
+      </article>
+    </>
   );
 }
 
