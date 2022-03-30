@@ -21,7 +21,7 @@ function UserActivity(props) {
       </div>
       <div className={styles.activityInfoWrapper}>
         <h3 className={styles.activityTitle}>Likes</h3>
-        <p className={styles.activityLikes}>{likesCount}</p>
+        <p className={styles.activityData}>{likesCount}</p>
       </div>
     </div>
   );

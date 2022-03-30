@@ -24,8 +24,8 @@ function App() {
         <UserActivity
           tweets="237"
           folowing="47"
-          folovers="44.13 m"
-          likesCount="135.6 m"
+          folovers="44 mln"
+          likesCount="135 mln"
         />
       </article>
     </>
