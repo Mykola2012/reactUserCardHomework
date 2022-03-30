@@ -1,6 +1,7 @@
 import "./App.css";
 import UserInfo from "./components/UserInfo";
 import UserPhoto from "./components/UserPhoto";
+import StatusLike from "./components/StatusLike";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           userNickname="kobzar"
           linkProfile="#"
         />
+        <StatusLike isLike={false} />
       </article>
     </>
   );
