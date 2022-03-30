@@ -2,6 +2,7 @@ import "./App.css";
 import UserInfo from "./components/UserInfo";
 import UserPhoto from "./components/UserPhoto";
 import StatusLike from "./components/StatusLike";
+import UserActivity from "./components/UserActivity";
 
 function App() {
   return (
@@ -19,6 +20,13 @@ function App() {
           linkProfile="#"
         />
         <StatusLike isLike={false} />
+
+        <UserActivity
+          tweets="237"
+          folowing="47"
+          folovers="44.13 m"
+          likesCount="135.6 m"
+        />
       </article>
     </>
   );

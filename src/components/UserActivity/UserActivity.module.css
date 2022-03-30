@@ -1,0 +1,16 @@
+.activityWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activityInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.activityTitle {
+  margin-top: 55px;
+  font-size: 16px;
+}
