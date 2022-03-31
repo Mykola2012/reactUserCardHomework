@@ -5,16 +5,12 @@
   justify-content: center;
 }
 
-.falseLike {
+.statusLike {
   font-size: 30px;
   padding: 20px;
-  color: #fff;
+  color: #e7f702;
   background-color: #029df7;
   border-radius: 50%;
   box-shadow: 0 0 20px #e7f702;
   cursor: pointer;
-}
-
-.trueLike {
-  color: #e7f702;
 }
