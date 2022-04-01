@@ -19,12 +19,12 @@ function App() {
           userNickname="kobzar"
           linkProfile="#"
         />
-        <StatusLike isLike={false} />
+        <StatusLike />
 
         <UserActivity
           tweets="237"
-          folowing="47"
-          folovers={9031814}
+          following="47"
+          followers={9031814}
           likesCount={1003861}
         />
       </article>

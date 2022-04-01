@@ -1,21 +1,24 @@
 .activityWrapper {
+  margin-top: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .activityInfoWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 8px;
+  padding-top: 25px;
 }
 
 .activityTitle {
-  margin: 65px 0 0;
+  margin: 0;
+  padding-bottom: 10px;
   font-size: 16px;
 }
 
 .activityData {
-  margin: 10px 0;
+  margin: 0 0 25px;
   font-size: 15px;
 }
